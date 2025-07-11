@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <section
-      id="home"
+      id="about"
       className="relative w-full h-screen flex items-center justify-center text-center text-white p-4"
     >
       {/* Background image or video placeholder */}
