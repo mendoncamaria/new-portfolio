@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative w-full h-screen flex items-center justify-center text-center p-4">
       {/* Background image or video placeholder */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 opacity-90"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-slate-100 opacity-90"></div>
       {/* You can replace the gradient with an image:
           <img src="/path/to/your/hero-bg.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover" />
       */}
