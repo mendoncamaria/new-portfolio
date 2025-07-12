@@ -1,5 +1,5 @@
+"use client"
 import Footer from '@/components/Footer';
-
 import About from '@/section/About';
 import Contact from '@/section/Contact';
 import HeroSection from '@/section/Hero';
