@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tailwindcss/preflight";
+@import 'tailwindcss';
+@import 'tailwindcss/preflight';
 @tailwind utilities;
 
 /* Custom animations (optional, for the hero section example) */
@@ -19,8 +19,12 @@
   opacity: 0; /* Ensures element is hidden before animation starts */
 }
 
-.delay-200 { animation-delay: 0.2s; }
-.delay-400 { animation-delay: 0.4s; }
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-400 {
+  animation-delay: 0.4s;
+}
 
 .padding-header-side {
   padding: 1rem 2rem;
@@ -50,7 +54,8 @@
 }
 
 @keyframes pulseSlow {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.3;
     transform: scale(1);
   }
@@ -61,6 +66,13 @@
 }
 
 .animate-fade-in-down {
-  animation: fadeInDown 1s ease-out forwards;
+  animation: fadeInDown 2s ease-out forwards;
   opacity: 0;
+}
+
+.section-header {
+  font-size: xx-large;
+  padding: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
 }

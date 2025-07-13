@@ -9,9 +9,9 @@ const Project = () => {
     >
       <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 opacity-90"></div>
 
-      <h1 className="text-5xl md:text-7xl font-extrabold mb-4 animate-fade-in-up bottom-10/12 right-3/8 absolute">
-        These are my projects
-      </h1>
+      <h1 className="text-center text-blue-600 animate-fade-in-down section-header">
+          PROJECTS
+        </h1>
 
       <div className="">
         <Image
