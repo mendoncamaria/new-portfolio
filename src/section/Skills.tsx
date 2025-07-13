@@ -14,9 +14,9 @@ const Skill = () => {
       className="relative w-full h-screen flex items-center justify-center text-center p-4"
     >
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-slate-100 opacity-90 p-10">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-slate-600 animate-fade-in-down">
-          My Expertise
-        </h2>
+        <h1 className="text-center text-blue-600 animate-fade-in-down section-header">
+          MY SKILLS
+        </h1>
 
         {/* Back Button - Conditionally rendered */}
         {selectedCategory && (
