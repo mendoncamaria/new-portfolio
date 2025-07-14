@@ -8,7 +8,7 @@ const About = () => {
       className="min-w-full py-16 px-4 bg-gradient-to-br from-slate-50 to-slate-100 text-gray-800 flex flex-col items-center justify-center min-h-screen relative overflow-hidden"
     >
       <div className="container mx-auto max-w-6xl">
-        <h1 className="text-center text-blue-600 animate-fade-in-down section-header">
+        <h1 className="text-center text-gray-600 animate-fade-in-down section-header">
           ABOUT ME
         </h1>
 
