@@ -32,3 +32,51 @@ export const aboutContent = [
     text: "When I'm not coding, you might find me exploring new hiking trails, experimenting with digital art, or diving into a good book. I'm always eager to connect and discuss new opportunities or exciting projects!",
   },
 ];
+
+export const softSkillsData = [
+  {
+    name: 'Communication',
+    description:
+      'Clear, concise, and effective verbal & written communication.',
+  },
+  {
+    name: 'Problem-Solving',
+    description: 'Analytical and creative approach to complex challenges.',
+  },
+  {
+    name: 'Teamwork',
+    description: 'Collaborative and supportive team player.',
+  },
+  {
+    name: 'Adaptability',
+    description:
+      'Quick to learn new technologies and adjust to changing environments.',
+  },
+  {
+    name: 'Project Management',
+    description: 'Organized and efficient in managing tasks and timelines.',
+  },
+];
+
+export const hardSkillsData = [
+  {
+    name: 'Languages',
+    skills: ['TypeScript', 'Python', 'Go', 'JavaScript'],
+  },
+  {
+    name: 'Frontend',
+    skills: ['React.js', 'Next.js', 'Tailwind CSS', 'HTML5 / CSS3'],
+  },
+  {
+    name: 'Backend',
+    skills: ['Node.js / Express', 'RESTful APIs', 'GraphQL', 'WebSockets'],
+  },
+  {
+    name: 'Databases',
+    skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase Firestore'],
+  },
+  {
+    name: 'Cloud & DevOps',
+    skills: ['AWS (S3, EC2)', 'Vercel / Netlify', 'Docker', 'Git / GitHub'],
+  },
+];
