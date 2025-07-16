@@ -1,6 +1,8 @@
+import { commonStyles } from "@/app/tailwindStyles";
+
 const Contact = () => {
   return (
-    <section id="contact" className="relative w-full h-screen flex items-center justify-center text-center p-4">
+    <section id="contact" className={commonStyles.container}>
       {/* Background image or video placeholder */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 opacity-90"></div>
       {/* You can replace the gradient with an image:

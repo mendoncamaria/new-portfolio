@@ -1,14 +1,12 @@
+import { commonStyles } from '@/app/tailwindStyles';
 import { aboutContent } from '@/constants/ArrayConstants';
 import React from 'react';
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="min-w-full py-16 px-4 bg-gradient-to-br from-slate-50 to-slate-100 text-gray-800 flex flex-col items-center justify-center min-h-screen relative overflow-hidden"
-    >
-      <div className="container mx-auto max-w-6xl">
-        <h1 className="text-center text-gray-600 animate-fade-in-down section-header">
+    <section id="about" className={commonStyles.container}>
+      <div className="container mx-auto max-w-7xl">
+        <h1 className={commonStyles.sectionHeader}>
           ABOUT ME
         </h1>
 

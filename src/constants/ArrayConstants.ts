@@ -33,50 +33,65 @@ export const aboutContent = [
   },
 ];
 
-export const softSkillsData = [
-  {
-    name: 'Communication',
-    description:
-      'Clear, concise, and effective verbal & written communication.',
-  },
-  {
-    name: 'Problem-Solving',
-    description: 'Analytical and creative approach to complex challenges.',
-  },
-  {
-    name: 'Teamwork',
-    description: 'Collaborative and supportive team player.',
-  },
-  {
-    name: 'Adaptability',
-    description:
-      'Quick to learn new technologies and adjust to changing environments.',
-  },
-  {
-    name: 'Project Management',
-    description: 'Organized and efficient in managing tasks and timelines.',
-  },
-];
-
-export const hardSkillsData = [
-  {
-    name: 'Languages',
-    skills: ['TypeScript', 'Python', 'Go', 'JavaScript'],
-  },
-  {
-    name: 'Frontend',
-    skills: ['React.js', 'Next.js', 'Tailwind CSS', 'HTML5 / CSS3'],
-  },
-  {
-    name: 'Backend',
-    skills: ['Node.js / Express', 'RESTful APIs', 'GraphQL', 'WebSockets'],
-  },
-  {
-    name: 'Databases',
-    skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase Firestore'],
-  },
-  {
-    name: 'Cloud & DevOps',
-    skills: ['AWS (S3, EC2)', 'Vercel / Netlify', 'Docker', 'Git / GitHub'],
-  },
-];
+export const chartData = {
+  name: 'MY SKILLS',
+  color: '#f0f0f0',
+  children: [
+    {
+      name: 'Technical Skills',
+      color: '#4a90e2',
+      children: [
+        {
+          name: 'Frontend',
+          color: '#f39c12',
+          children: [
+            { name: 'React.js', size: 8, color: '#61dafb' },
+            { name: 'Next.js', size: 7, color: '#000000' },
+            { name: 'TypeScript', size: 6, color: '#007acc' },
+            { name: 'Tailwind CSS', size: 5, color: '#06b6d4' },
+            { name: 'HTML/CSS', size: 7, color: '#e44d26' },
+          ],
+        },
+        {
+          name: 'Backend',
+          color: '#e67e22',
+          children: [
+            { name: 'Node.js', size: 7, color: '#8cc84b' },
+            { name: 'Express.js', size: 6, color: '#f1c40f' },
+            { name: 'RESTful APIs', size: 5, color: '#f39c12' },
+            { name: 'Python', size: 4, color: '#3498db' },
+          ],
+        },
+        {
+          name: 'Databases',
+          color: '#2ecc71',
+          children: [
+            { name: 'MongoDB', size: 6, color: '#4db6ac' },
+            { name: 'PostgreSQL', size: 5, color: '#336791' },
+            { name: 'Firebase', size: 4, color: '#ffca28' },
+          ],
+        },
+        {
+          name: 'Cloud & DevOps',
+          color: '#9b59b6',
+          children: [
+            { name: 'AWS', size: 5, color: '#ff9900' },
+            { name: 'Docker', size: 4, color: '#2496ed' },
+            { name: 'Git', size: 6, color: '#f1502f' },
+          ],
+        },
+      ],
+    },
+    {
+      name: 'Soft Skills',
+      color: '#8e44ad',
+      children: [
+        { name: 'Communication', size: 4, color: '#6a5acd' },
+        { name: 'Adaptability', size: 4, color: '#6a5acd' },
+        { name: 'Problem Solving', size: 4, color: '#6a5acd' },
+        { name: 'Team Work', size: 4, color: '#6a5acd' },
+        { name: 'Project Management', size: 4, color: '#6a5acd' },
+      ],
+    },
+  ],
+};

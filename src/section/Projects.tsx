@@ -1,17 +1,12 @@
 import Image from 'next/image';
 import ProjectList from '../assets/projectList.png';
+import { commonStyles } from '@/app/tailwindStyles';
 
 const Project = () => {
   return (
-    <section
-      id="projects"
-      className="relative w-full h-screen flex text-center p-4"
-    >
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 opacity-90"></div>
+    <section id="projects" className={commonStyles.container}>
 
-      <h1 className="text-center text-blue-600 animate-fade-in-down section-header">
-          PROJECTS
-        </h1>
+      <h1 className={commonStyles.sectionHeader}>PROJECTS</h1>
 
       <div className="">
         <Image

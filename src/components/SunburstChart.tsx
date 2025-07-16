@@ -22,6 +22,7 @@ const SunburstChart: React.FC<SunburstChartProps> = ({ data }) => {
       myChart
         .data(data)
         .color('color')
+        .width(window.innerWidth < 700 ? window.innerWidth : 700)
         .label('name') // Or your data's label key
         .size('size')(
         // Or your data's size key
